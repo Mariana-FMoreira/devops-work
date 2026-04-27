@@ -26,8 +26,9 @@ class ConsultaDadosServiceTest {
     @Test
     void testConsultaDadosUniversidadeCorreta() {
         DadosDTO dados = consultaDadosService.consultaDados();
-        assertEquals("Pontificia Universidade Catolica do Paraná - PUC PR", dados.getUniversidade(), "A universidade deve ser a PUC PR");
+        assertEquals("Pontificia Universidade Catolica do Paraná - PUC PR", dados.getUniversidade(),
+                "A universidade deve ser a PUC PR");
     }
 }
 
-#consultaDados
+// validação de dados
