@@ -29,3 +29,5 @@ class ConsultaDadosServiceTest {
         assertEquals("Pontificia Universidade Catolica do Paraná - PUC PR", dados.getUniversidade(), "A universidade deve ser a PUC PR");
     }
 }
+
+#consultaDados
