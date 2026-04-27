@@ -20,12 +20,15 @@ class ConsultaDadosServiceTest {
     @Test
     void testConsultaDadosNomeCorreto() {
         DadosDTO dados = consultaDadosService.consultaDados();
-        assertEquals("José", dados.getNome(), "O nome deve ser José");
+        assertEquals("Mariana", dados.getNome(), "O nome deve ser Mariana");
     }
 
     @Test
     void testConsultaDadosUniversidadeCorreta() {
         DadosDTO dados = consultaDadosService.consultaDados();
-        assertEquals("Pontificia Universidade Catolica do Paraná - PUC PR", dados.getUniversidade(), "A universidade deve ser a PUC PR");
+        assertEquals("Pontificia Universidade Catolica do Paraná - PUC PR", dados.getUniversidade(),
+                "A universidade deve ser a PUC PR");
     }
 }
+
+// validação de dados

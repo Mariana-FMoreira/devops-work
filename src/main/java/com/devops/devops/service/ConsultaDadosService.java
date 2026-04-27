@@ -13,8 +13,8 @@ public class ConsultaDadosService {
 
     public DadosDTO consultaDados(){
         return DadosDTO.builder()
-                .nome("José")
-                .sobrenome("Ficticio")
+                .nome("Mariana")
+                .sobrenome("Silva")
                 .materia("DEVOPS")
                 .universidade("Pontificia Universidade Catolica do Paraná - PUC PR")
                 .periodo(5)
