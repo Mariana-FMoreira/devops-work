@@ -20,7 +20,7 @@ class ConsultaDadosServiceTest {
     @Test
     void testConsultaDadosNomeCorreto() {
         DadosDTO dados = consultaDadosService.consultaDados();
-        assertEquals("José", dados.getNome(), "O nome deve ser José");
+        assertEquals("Mariana", dados.getNome(), "O nome deve ser Mariana");
     }
 
     @Test

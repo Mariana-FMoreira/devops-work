@@ -25,8 +25,8 @@ class ConsultaControllerTest {
     @Test
     void testGetConsultaOk() throws Exception {
         DadosDTO mockDados = DadosDTO.builder()
-                .nome("José")
-                .sobrenome("Ficticio")
+                .nome("Mariana")
+                .sobrenome("Silva")
                 .materia("DEVOPS")
                 .universidade("PUC PR")
                 .periodo(5)
@@ -37,7 +37,7 @@ class ConsultaControllerTest {
 
         mockMvc.perform(get("/consulta"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.nome").value("José"))
+                .andExpect(jsonPath("$.nome").value("Mariana"))
                 .andExpect(jsonPath("$.materia").value("DEVOPS"));
     }
 
